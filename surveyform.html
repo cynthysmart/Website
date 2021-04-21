@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <h1 id="title">CynthySmart Survey Form</h1>
+    <p id="description">Thank you for taking your time to improve the platform</p>
+    <link rel="stylesheet" href="surveyform.css">
+  </head>
+
+  <body>
+    <form id="survey-form">
+    <label id="name-label" for="name"> Name </label>
+    <br>
+    <input id="name" type="text" name="name" placeholder="Enter your name" required></input>
+    <br><br>
+    <label id="email-label" for="email"> Email</label>
+    <br>
+    <input id="email" type="email" name="email" placeholder="Enter your Email" required></input>
+    <br><br>
+  <label id="age" for="age">In what age group are you?</label><br>
+    <input id="age" type="radio" id="Under 15" name="color" value="Under 15">
+    <label id="age">Under 15</label><br>
+    <input id="age" type="radio" id="15-19" name="color" value="15-19">
+    <label id="age">15-19</label><br>
+   <input id="age" type="radio" id="20-29" name="color" value="20-29">
+    <label id="age">20-29</label><br>
+  <input id="age" type="radio" id="30-39" name="color" value="30-39">
+    <label id="age">30-39</label><br>
+  <input id="age" type="radio" id="40 or more" name="color" value="40 or more">
+    <label id="age">40 or more</label><br>
+  <br>
+  <label id="Role" for="dropdown" >How often do you visit our website?</label><br>
+    <select id="dropdown">
+      <option value="Role 0">This is my first time</option>
+      <option value="Role 1">Daily</option>
+      <option value="Role 2">Weekly</option>
+      <option value="Role 3">Monthly</option>
+      <option value="Role 4">Less than once a month</option>
+      <option value="Role 5">Rarely</option>
+    </select><br>
+
+<br>
+
+    <br>
+
+    <label id="Role" for="dropdown" >How did you hear about us?</label><br>
+    <select id="dropdown">
+      <option value="Role 0">Social Media</option>
+      <option value="Role 1">Advertising</option>
+      <option value="Role 2">Search Engine</option>
+      <option value="Role 3">Friend</option>
+      <option value="Role 5">Others</option>
+    </select><br><br>
+
+    <label id="recommendation" for="recommendation">Would you recommend CynthySmart to a friend?</label><br>
+    <input id="recommendation" type="radio" id="Definitely" name="color" value="Definitely">
+    <label id="recommendation">Definitely</label><br>
+    <input id="recommendation" type="radio" id="Maybe" name="color" value="Maybe">
+    <label id="recommendation">Maybe</label><br>
+   <input id="recommendation" type="radio" id="Not sure" name="color" value="Not sure">
+    <label id="recommendation">Not sure</label><br>
+
+<br>
+ <label id="appearance" for="appearance">How much professional does the website appear?</label><br>
+    <input id="appearance" type="radio" id="Excellent" name="color" value="Excellent">
+    <label id="appearance">Excellent</label><br>
+    <input id="appearance" type="radio" id="High" name="color" value="High">
+    <label id="appearance">High</label><br>
+   <input id="appearnce" type="radio" id="Medium" name="color" value="Medium">
+    <label id="appearance">Medium</label><br>
+<input id="appearnce" type="radio" id="Low" name="color" value="Low">
+    <label id="appearance">Low</label><br>
+<input id="appearnce" type="radio" id="Not at all" name="color" value="Not at all">
+    <label id="appearance">Not at all</label><br>
+
+<br>
+   <label id="useful" for="useful">Do you find information on this website useful?</label><br>
+    <input id="useful" type="radio" id="Yes" name="color" value="Yes">
+    <label id="useful">Yes</label><br>
+    <input id="useful" type="radio" id="No" name="color" value="No">
+    <label id="useful">No</label><br>
+   <input id="useful" type="radio" id="Maybe" name="color" value="Maybe">
+    <label id="useful">Maybe</label><br>
+  <br>
+
+  <label  id="" for="features">What would you like to see improved? (Check all that apply)</label><br>
+  <input id="quotation" type="checkbox" name="quotation" value="autopadle">
+  <label for="quotation">Advertisement</label><br>
+  <input id="quotation" type="checkbox" name="quotation" value="riding">
+  <label for="quotation">Website Outlook</label><br>
+  <input id="quotation" type="checkbox" name="quotation" value="biking">
+  <label for="quotation">Instruction</label><br>
+  <br>
+    <br>
+    <label id="number-label" for="number">Rate us on a scale of 1-10</label>
+    <input id="number" type="number" name="number" placeholder="10" min="0" max="10" required> </input><br>
+
+    <br>
+  <label id="textarea">Additional Comment</label><br>
+  <textarea id="textarea" name="Instruction"rows="5" cols="40">
+
+  </textarea>
+  <br>
+  <input id="submit" type="submit" value="submit">
+  </form>
+</body>
